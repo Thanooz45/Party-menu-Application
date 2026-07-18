@@ -1,15 +1,9 @@
-# Party Menu Application
 
 A simple party menu application built with React and Vite. Browse menu items, view recipe details, and save your favourites.
 
-## Links
+Live website: https://party-menu-application-seven.vercel.app/
+GitHub repository: https://github.com/Thanooz45/Party-menu-Application
 
-- Live website: https://party-menu-application-seven.vercel.app/
-- GitHub repository: https://github.com/Thanooz45/Party-menu-Application
-
-## Folder structure
-
-```text
 Party_Menu_Application/
 ├── public/       # Static files
 ├── src/          # React components and pages and data
@@ -17,11 +11,10 @@ Party_Menu_Application/
 └── README.md     # Project information
 ```
 
-## Run locally
+for local running run
 
-```bash
+bash:
+
 npm install
 npm run dev
-```
 
-Open the local link shown in the terminal.
