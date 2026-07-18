@@ -1,0 +1,180 @@
+.fd-page-wrapper {
+  background-color: #111113;
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.fd-cont {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.fd-empty {
+  text-align: center;
+  padding-top: 100px;
+}
+.fd-action-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.fd-action-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.fd-back-btn, .fd-nav-link {
+  background-color: transparent;
+  border: 1px solid #272733;
+  color: #8c8c9e;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.fd-back-btn:hover, .fd-nav-link:hover {
+  color: orange;
+  border-color: orange;
+}
+.fd-save-btn {
+  background-color: orange;
+  border: 1px solid #272733;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.fd-save-btn.is-saved {
+  border-color: #10b981;
+  color: #10b981;
+  background-color: rgba(16, 185, 129, 0.05);
+}
+.fd-split-section {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.fd-img {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+}
+
+.fd-info-side {
+  flex: 1.8;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 12px;
+}
+
+.fd-badge-row {
+  display: flex;
+  padding:5px;
+  margin:5px;
+}
+
+.fd-badge {
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.fd-cat-badge {
+  background-color: #e65c00;
+  color: #ffffff;
+}
+
+.fd-veg {
+  background-color: rgba(16, 185, 129, 0.15);
+  border: 1px solid #10b981;
+  color: #10b981;
+}
+
+.fd-nonveg {
+  background-color: rgba(239, 68, 68, 0.15);
+  border: 1px solid #ef4444;
+  color: #ef4444;
+}
+.fd-title {
+  color:white;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+.fd-servings {
+  color: #7d7d8e;
+  font-size: 14px;
+  margin: 0;
+}
+.fd-desc {
+  color: #8c8c9e;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 4px 0 0 0;
+}
+.fd-ingredients-card {
+  background-color: #1d1d26;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+.fd-ingredients-card h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.fd-ing-list {
+  list-style: none;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fd-ing-item {
+  background-color: #13131a;
+  border: 1px solid #272733;
+  padding: 14px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fd-ing-name {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.fd-ing-qty {
+  color: gray;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .fd-split-section {
+    flex-direction: column;
+  }
+}

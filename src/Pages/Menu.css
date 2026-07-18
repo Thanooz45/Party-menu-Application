@@ -1,0 +1,36 @@
+.mn-cont{
+    background-color:#111113; 
+    min-height:100vh;
+    background-size: cover;
+    padding:20px;
+    box-sizing:border-box;
+}
+.mn-items{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:flex-start;
+  padding:20px 0px;
+  width:100%;
+}
+.mn-empty-state{
+  text-align:center;
+  padding:60px 20px;
+  background-color:#1d1d26;
+  border-radius:16px;
+  margin-top:10px;
+}
+.mn-empty-state p{
+  color:#8c8c9e;
+  font-size:16px;
+  margin:0;
+}
+.mn-titems {
+  color:#7d7d8e;
+  font-size:14px;
+  text-align:left;
+  margin-top:16px;
+  margin-bottom:24px;
+  font-weight: 500;
+}

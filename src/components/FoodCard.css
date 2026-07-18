@@ -1,0 +1,88 @@
+.fc-cont{
+    width:250px;
+    background-color:#1d1d26;
+    color:white;
+    padding:20px;
+    margin:10px;
+    border-radius:20px;
+}
+.fc-cont:hover{
+  border-color: orangered;
+  border-width: 2px;
+  cursor:pointer;
+}
+.fc-img{
+    width:100%;
+    border-radius: 12px;
+    display: block;
+}
+.fc-category{
+    color:#e65c00;
+  font-size:12px;
+  font-weight:700;
+  text-transform:uppercase;
+  
+}
+.fc-name{
+    color:#ffffff;
+  font-size:20px;
+  font-weight:600;
+  margin:2px 0;
+}
+.fc-description{
+    color:#8c8c9e;
+  font-size:13px;
+  line-height:1.4;
+  margin:4px ;
+}
+.fc-servings{
+color:#5c5c6e;
+  font-size:13px;
+  font-weight:500;
+}
+.fc-remove-btn{
+    width:100%;
+    border: 2px solid orange;
+    padding:10px;
+    border-radius:20px;
+    color:#ef4444;
+    font-size:10px;
+    font-weight:600;
+    background-color: transparent;
+    margin:5px;
+    cursor:pointer;
+    outline:none;
+    box-sizing:border-box;
+    transition:all 0.2s ease;
+}
+.fc-remove-btn:hover {
+  background-color:#ef4444;
+  color:#ffffff;
+  border-color:#ef4444;
+}
+.fc-remove-btn:active {
+  transform: scale(0.97);
+}
+.fc-diet-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.fc-veg {
+  background-color: rgba(16, 185, 129, 0.2);
+  border: 1px solid #10b981;
+  color: #10b981;
+}
+.fc-nonveg {
+  background-color: rgba(239, 68, 68, 0.2);
+  border: 1px solid #ef4444;
+  color: #ef4444;
+}
+.fc-info{
+    text-align: left;;
+}
