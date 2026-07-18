@@ -44,7 +44,7 @@ const SignIn = ({ isAuthenticated, onLogin }) => {
       <div className="s-card">
         <div className="s-header">
           <div>
-            
+            <img className="p-img"src="https://res.cloudinary.com/dkspz8wwt/image/upload/v1784367374/Screenshot_2026-07-18_150511_vhzu2l.png"/>
             <h1>party menu</h1>
           </div>
           <p className="s-sub">Sign in to explore our delicious menu</p>
