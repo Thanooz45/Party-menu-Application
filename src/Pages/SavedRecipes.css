@@ -63,9 +63,6 @@
   font-weight: 600;
   font-size: 14px;
 }
-/* .sr-action-link:hover {
-  text-decoration: u;
-} */
 .sr-empty{
     display: flex;
     flex-direction: column;

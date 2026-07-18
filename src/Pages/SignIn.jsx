@@ -7,7 +7,7 @@ const url = "https://serverless-api-teal.vercel.app/api/auth/signin";
 const SignIn = ({ isAuthenticated, onLogin }) => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("admin@example.com");
-  const [password, setPassword] = useState("admin123");
+  const [password, setPassword] = useState("..........");
   const [errorMsg, setErrorMsg] = useState("");
   const [loading, setLoading] = useState(false);
 
